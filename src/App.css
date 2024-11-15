@@ -36,3 +36,204 @@
     transform: rotate(360deg);
   }
 }
+
+
+.app-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #007bff;
+  border-radius: 5px;
+  transition: width 0.3s;
+}
+
+.form-step {
+  margin-bottom: 20px;
+}
+
+.form-step label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-step input,
+.form-step select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #007bff;
+  width: 33%; /* Adjust based on step */
+  border-radius: 3px;
+  transition: width 0.3s;
+}
+
+.form-container {
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 22px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+.progress-bar-container {
+  width: 25vw;
+  margin-left: 170px;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.inputName{
+  margin-top: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #76c7c0;
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+.inputName{
+  width: 37vw;
+  height: 5vh;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inputAge{
+  width: 37vw;
+  height: 5vh;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.InputQualities{
+  width: 37vw;
+  height: 11vh;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.selectEducation{
+  width: 38vw;
+  height: 7vh;
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.pApp{
+  font-size: 23px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.pName{
+  font-size: 23px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
